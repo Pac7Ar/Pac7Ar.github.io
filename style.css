@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo {
+    display: flex;
+    align-items: start;
+    padding-right: 10px;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    background-color:white;
+    padding: 0px 5%;
+    margin: 25px 0px;
+    
+}
+
+.nav-link {
+     align-items: center;   
+     display: flex;
+     
+} 
+
+.nav-link a  {
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+.boton {
+    background-color: transparent;
+
+}
+
+.nav a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.mundo-maya1 {
+    /* background-color: rgb(47, 158, 47); */
+    background-color:rgb(1,98,65);
+    text-align: center;
+    height: 30vw;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.mundo-maya1 img{
+    width: 50%;
+    height: 100%;
+}
+
+.mundo-maya1 .letras{
+    width: 50%;
+}
+
+.mundo-maya2 {
+    height: 30vw;
+    width: 100%;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: rgb(1,98,65);
+    
+}
+
+h1 {
+    color: white;
+    font-size: 4vw;
+}
+samp {
+    color: white;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    background-color:rgb(1,98,65);
+    text-align: center;
+}
+.rojo{
+    background-color: rgb(212,0,50);
+}
+.crea {
+    width: 50%; background-color: rgb(210, 36, 80);
+    text-align: center;
+    height: 30vw;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+.crea.img {
+    width: 50%;
+    height: 100%;
+}
+
+
+
+span {
+    color: white;
+    font-size: 20px;
+}
+ label {
+    color: white;
+    
+ }
+
+ .red-social {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+
+ }
+ 
+ .letras {
+
+ }
+
+ .letras1 {
+    position: relative;
+    top: 90px;
+ }
+
+ .pedido1 {
+    position: relative;
+    top:40px
+ }
+ .pedido2 {
+    position: relative;
+    top:40px
+ }
+
+ footer img{
+    height: 50px;
+    margin-right: 10px;
+    
+ }
+ 
+button{
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px black solid;
+    width: 130px;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.btn-rojo{
+    border-color: white;
+    color: white;
+}
+.btn-rojo:hover{
+    color: rgb(212,0,50);
+    background-color: white;
+}
+
+
+a:hover{
+    color: blueviolet;
+}
